@@ -53,6 +53,7 @@ const Adimin = () => {
     })
     // Unmount the Component - Desmonta o componente se case SAIR da pagina ou componente.
     return () => {
+      unsub()
       console.log("OPA ! Saiuuu mano veio,..")
     }
 
